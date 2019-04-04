@@ -44,7 +44,7 @@ public class Computer {
 		com2.os="Mac OS";
 		com2.ram=6;
 		com2.screen=4;
-		com1.brand="Apple";
+		com2.brand="Apple";
 		
 		com2.doJavaCoding();
 		com2.playMusic();

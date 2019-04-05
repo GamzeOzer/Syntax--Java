@@ -1,23 +1,65 @@
 package class16;
 
+import java.util.Scanner;
+
 public class ReviewWed {
 	
 	
 	///global variables---- outside of main method
+	String eyes;
+	String hair;
+	String nose;
+	String shirt;
+
+	
 
 	public static void main(String[] args) {
 		
 		////local variables----inside of main method
 		
 		
-		ReviewWed rew=new ReviewWed();
-		rew.reverseString();
+		ReviewWed wegas=new ReviewWed();
 		
-		rew.vowelCountWithLoop();
+		wegas.eyes="blue";
+		wegas.hair="blue";
+		wegas.nose="brown";
+		wegas.shirt="gray";
+		wegas.humanEyes();
+		wegas.noReturn();
 		
-		rew.vowelCountWithReplaceAll();
+		
+		
+		
+		wegas.scannerFirstName();
+		wegas.noReturn();
+		wegas.scannerInt();
+		
+		
+		wegas.reverseString();
+		
+		wegas.vowelCountWithLoop();
+		
+		wegas.vowelCountWithReplaceAll();
 	}
-
+	
+	void humanEyes() {
+		ReviewWed weqas=new ReviewWed();
+		weqas.eyes="red";
+		System.out.println(weqas.eyes);
+	}
+	void noReturn() {
+		System.out.println("I do not have a return type");
+	}
+	
+	
+	void scannerFirstName() {
+		Scanner scan =new Scanner(System.in);
+		scan.nextLine();
+	}
+	void scannerInt() {
+		Scanner scan=new Scanner(System.in);
+		scan.nextInt();
+	}
 
 	
 	 void reverseString() {
